@@ -1,7 +1,7 @@
 # excel-challenge
 I have attached an Excel file and a Word document to this GitHub repository, where I explain the conclusions drawn from the crowdfunding dataset. In my analysis, I also discuss the limitations of the dataset.
 
-After performing calculations for mean and median, I conclude that the median is the preferable method for finding a better representation of the typical number of backers. This choice is made because it is less affected by outliers or campaigns with exceptionally high numbers of backers.
+After performing calculations for mean and median, I conclude that the median is the preferable method for finding a better representation of the typical number of backers. This choice is made because it is less affected by outliers or campaigns with exceptionally high numbers of backers!
 
 I also delve into the concept of standard deviation and its implications. I highlight that successful campaigns tend to exhibit a higher standard deviation. This is due to the influence of a few exceptionally successful campaigns, which contribute to a wider range of performance. This information provides insights into the variability and distribution of crowdfunding campaign performance.
 
