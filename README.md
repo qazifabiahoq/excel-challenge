@@ -1,5 +1,5 @@
 # excel-challenge
-I have attached an Excel file and a Word document to this GitHub repository, where I explain the conclusions drawn from the crowdfunding dataset. In my analysis, I also discuss the limitations of the dataset.
+This is data analysis using excel on crowdfunding campaigns from 2010 -2020. I have attached an Excel file and a Word document to this GitHub repository, where I explain the conclusions drawn from the crowdfunding dataset. In my analysis, I also discuss the limitations of the dataset.
 
 After performing calculations for mean and median, I conclude that the median is the preferable method for finding a better representation of the typical number of backers. This choice is made because it is less affected by outliers or campaigns with exceptionally high numbers of backers!
 
