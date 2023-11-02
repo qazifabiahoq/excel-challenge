@@ -1,4 +1,10 @@
 # excel-challenge
+I have attached an Excel file and a Word document to this GitHub repository, where I explain the conclusions drawn from the crowdfunding dataset. In my analysis, I also discuss the limitations of the dataset.
+
+After performing calculations for mean and median, I conclude that the median is the preferable method for finding a better representation of the typical number of backers. This choice is made because it is less affected by outliers or campaigns with exceptionally high numbers of backers.
+
+I also delve into the concept of standard deviation and its implications. I highlight that successful campaigns tend to exhibit a higher standard deviation. This is due to the influence of a few exceptionally successful campaigns, which contribute to a wider range of performance. This information provides insights into the variability and distribution of crowdfunding campaign performance.
+
 Here are 3 conclusions that can be drawn from the crowdfunding campaign analysis:
 
 Theatre Campaigns: The data indicates that "theatre" crowdfunding campaigns show distinct characteristics. They experience both higher success rates (187 out of 200), higher rates of failure (132 out of 140), and more cancellations (23 out of 25) compared to other categories in most countries. However, it's essential to note that "theatre" campaigns are less likely to be currently "live" when compared to categories like "film & video" and "games." Further analysis of subcategories reveals that "play" campaigns within the "theatre" category exhibit more successful, failed, and canceled campaigns. This suggests that "theatre" campaigns are efficient in meeting their goals and receiving pledged funds, even though the number of campaigns might not be the highest.
