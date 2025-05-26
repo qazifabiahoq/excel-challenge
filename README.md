@@ -1,56 +1,104 @@
-# excel-challenge
-Note: This project was developed as part of the University of Toronto's Data Analytics Bootcamp program.
-This is data analysis using excel on crowdfunding campaigns from 2010 -2020. I have attached an Excel file and a Word document to this GitHub repository, where I explain the conclusions drawn from the crowdfunding dataset. In my analysis, I also discuss the limitations of the dataset.
 
-After performing calculations for mean and median, I conclude that the median is the preferable method for finding a better representation of the typical number of backers. This choice is made because it is less affected by outliers or campaigns with exceptionally high numbers of backers!
+# 📊 Crowdfunding Campaign Analysis (2010–2020)
 
-I also delve into the concept of standard deviation and its implications. I highlight that successful campaigns tend to exhibit a higher standard deviation. This is due to the influence of a few exceptionally successful campaigns, which contribute to a wider range of performance. This information provides insights into the variability and distribution of crowdfunding campaign performance.
+## Dataset: Crowdfunding Campaigns (2010–2020)
 
-Here are 3 conclusions that can be drawn from the crowdfunding campaign analysis:
+This project analyzes a dataset of crowdfunding campaigns launched between 2010 and 2020. The dataset includes campaign categories, statuses (successful, failed, live, canceled), geographical distribution, backer statistics, and financial goals.
 
-Theatre Campaigns: The data indicates that "theatre" crowdfunding campaigns show distinct characteristics. They experience both higher success rates (187 out of 200), higher rates of failure (132 out of 140), and more cancellations (23 out of 25) compared to other categories in most countries. However, it's essential to note that "theatre" campaigns are less likely to be currently "live" when compared to categories like "film & video" and "games." Further analysis of subcategories reveals that "play" campaigns within the "theatre" category exhibit more successful, failed, and canceled campaigns. This suggests that "theatre" campaigns are efficient in meeting their goals and receiving pledged funds, even though the number of campaigns might not be the highest.
+---
 
-Film & Video Campaigns: The analysis shows that the "film & video" category has the highest number of live crowdfunding campaigns, especially in countries like the United States, Great Britain, and Australia. Subcategories within "film & video," such as animation, documentary, drama, and shorts, contribute to its prominence. "Film & video" maintains a higher number of live campaigns, particularly in regions with higher population density.
+## 🎯 Project Objective
 
-Seasonal Trends: The time series chart indicates a recurring trend of reduced campaign success from July to September during the years 2010 to 2020. This decline is associated with a higher number of failed and canceled campaigns during these summer months. The drop in the number of live campaigns during the same period contributes to the decrease in successful campaigns. Several factors, such as summer activities and the back-to-school season, may explain this trend. However, it's important to note that there are more successful campaigns than failed, live, and canceled campaigns, and creators generally avoid cancellations due to the loss of funds.
+This analysis explores trends and performance metrics across crowdfunding campaigns to understand what contributes to campaign success or failure. The objective is to identify category-specific patterns, evaluate statistical metrics like mean, median, and standard deviation, and highlight factors that influence campaign outcomes.
 
-Regarding the limitations of the dataset:
+---
 
-Limited Sampling: The dataset includes a small number of countries and regions, which limits the generalizability of the conclusions. Including more countries could provide a more comprehensive view of crowdfunding outcomes.
+## 👥 Who Can Benefit from This Analysis?
 
-Currency Variability: Campaigns in different currencies pose challenges for financial analysis. Converting various currencies to a common currency is necessary for accurate comparisons.
+* **Aspiring campaign creators**: Understand what makes a campaign more likely to succeed.
+* **Investors/backers**: Gain insights into campaign reliability by category and timing.
+* **Platform designers** (e.g., Kickstarter, Indiegogo): Discover patterns that can inform UX and recommendation algorithms.
+* **Market researchers and analysts**: Use findings for industry trend evaluations.
 
-Niche Categories: The dataset does not cover all possible campaign types within categories, limiting the scope of analysis. Including additional niche categories and subcategories would enhance the analysis.
+This analysis reveals practical, data-driven insights that support better decision-making in launching or evaluating crowdfunding efforts.
 
-Platform Ambiguity: The dataset does not specify whether campaigns are from Kickstarter or Indiegogo. Each platform has unique dynamics, and this information would help analyze the data accurately.
+---
 
-Outliers: High outlier campaigns with exceptionally high pledges can affect statistical analysis. Addressing outliers is essential for accurate insights.
+## ⚙️ How the Analysis Was Conducted
 
-Additional graphs and tables that could be created for further analysis:
+* **Tool Used**: Microsoft Excel
+* **Data Source**: Crowdfunding campaign records from 2010 to 2020 (source not explicitly specified in the dataset)
 
-Average Donation by Country: A bar chart to compare average donation amounts across different countries, providing insights into geographic backer behavior.
+**Statistical Methods Applied**:
 
-Goal vs. Pledged Scatterplot: A scatterplot to explore the relationship between campaign funding goals and pledged amounts, identifying trends and outliers.
+* **Central Tendency**: Both mean and median were calculated to measure typical backer counts.
 
-Time to Reach Goal Histogram: A histogram to visualize the time taken to reach campaign goals, considering "Date Created Conversion" and "Date Ended Conversion."
+  * Median was determined to be more reliable due to the presence of extreme outliers.
+* **Dispersion Metrics**: Standard deviation was analyzed to understand variability.
 
-Staff Picked Impact Pie Chart: A pie chart to understand the success rate of staff-picked campaigns vs. non-staff-picked campaigns.
+  * Successful campaigns showed higher standard deviation, influenced by a few high-performing outliers.
+* **Category-Level Breakdown**: Campaigns were analyzed by type (e.g., Theatre, Film & Video) and subcategories (e.g., Play, Animation).
+* **Seasonal Trend Analysis**: Time-series data was reviewed to identify trends across months and years.
 
-Currency Conversion Rate Time Series Chart: A time series chart to analyze currency conversion rates over time and their impact on campaign outcomes.
+---
 
-Backer Engagement Time Series Chart: A time series chart to analyze the number of backers over the campaign duration for successful, live, and failed campaigns.
+## 📌 Key Findings
 
-Average Pledged Amount by Outcome Pivot Table/Bar Chart: A pivot table or bar chart to calculate and analyze the average pledged amount for different campaign outcomes.
+### 1. Theatre Campaigns
 
-Regarding the use of median vs. mean:
+* Exhibited high activity across all outcomes:
 
-In both successful and failed campaigns, the median is a more reliable measure than the mean. The median provides a better representation of the typical number of backers, as it is less affected by outliers or campaigns with exceptionally high numbers of backers. For successful campaigns, the mean may be inflated by a few super popular campaigns, making the median a better indicator of what most campaigns achieve. The same principle applies to failed campaigns, where the median offers a more typical number of backers, unaffected by a small number of unusual cases. Median is a practical choice for understanding how most campaigns perform.
+  * **Successes**: 187 out of 200
+  * **Failures**: 132 out of 140
+  * **Cancellations**: 23 out of 25
+* Subcategory “Play” dominated within Theatre.
+* These campaigns efficiently met their funding goals but were less likely to remain live compared to other categories.
 
-In terms of variance and standard deviation:
+### 2. Film & Video Campaigns
 
-For successful campaigns, the higher variance and standard deviation suggest a wider range of performance due to the influence of a few exceptionally successful campaigns. In contrast, failed campaigns exhibit lower variance and standard deviation, indicating a more concentrated distribution of backers. These statistics provide insights into the variability and distribution of crowdfunding campaign performance.
+* The most frequently active category.
+* Dominated in regions like the United States, Great Britain, and Australia.
+* Subcategories such as Animation, Documentary, and Drama drove high engagement.
+* Maintained the largest number of live campaigns, especially in higher-density areas.
 
+### 3. Seasonal Performance Trends
 
+* Campaign success declined from July to September consistently across the years.
+* These months also recorded higher failure and cancellation rates.
+* Possible causes include summer distractions and back-to-school timing.
+* Despite this dip, overall campaign success outnumbered failures, and cancellations remained rare.
 
+---
+
+## 📉 Statistical Insight Highlights
+
+**Median vs. Mean**
+
+* Median offered a more accurate representation of backer behavior, as it reduced distortion from unusually high or low numbers.
+
+**Variance and Standard Deviation**
+
+* Successful campaigns had high variance due to a few viral projects.
+* Failed campaigns showed tighter distributions, indicating lower engagement and predictability.
+
+---
+
+## ✅ Conclusion
+
+This Excel-based analysis reveals that certain campaign types, such as Theatre and Film & Video, have distinct behavioral patterns. Success is influenced by category type, timing, and geographical reach. Median is a more dependable metric than mean for analyzing backer behavior due to the presence of extreme outliers. Seasonal trends also impact campaign outcomes, with noticeable dips in success during mid-year months.
+
+---
+
+## 📚 Data Source
+
+The dataset used includes global crowdfunding campaign data from 2010 to 2020 and some regional/currency limitations exist.
+
+---
+
+## 🏫 Project Credit
+
+This project was completed as part of the University of Toronto's Data Analytics Bootcamp program.
+
+---
 
 
